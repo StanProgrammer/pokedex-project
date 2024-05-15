@@ -1,0 +1,14 @@
+{
+    "build": {
+      "env": {
+        "POSTGRES_PRISMA_URL": "postgres://default:q1Xak4AQCSlg@ep-ancient-mountain-a4cbmlq7-pooler.us-east-1.aws.neon.tech:5432/verceldb?sslmode=require&pgbouncer=true&connect_timeout=15",
+        "POSTGRES_URL_NO_SSL": "postgres://default:q1Xak4AQCSlg@ep-ancient-mountain-a4cbmlq7-pooler.us-east-1.aws.neon.tech:5432/verceldb",
+        "POSTGRES_URL_NON_POOLING": "postgres://default:q1Xak4AQCSlg@ep-ancient-mountain-a4cbmlq7.us-east-1.aws.neon.tech:5432/verceldb?sslmode=require",
+        "POSTGRES_USER": "default",
+        "POSTGRES_HOST": "ep-ancient-mountain-a4cbmlq7-pooler.us-east-1.aws.neon.tech",
+        "POSTGRES_PASSWORD": "q1Xak4AQCSlg",
+        "POSTGRES_DATABASE": "verceldb"
+      }
+    }
+  }
+  

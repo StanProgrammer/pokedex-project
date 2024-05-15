@@ -1,0 +1,32 @@
+datasource db {
+  provider = "postgresql"
+  url = env("POSTGRES_PRISMA_URL") // uses connection pooling
+  directUrl = env("POSTGRES_URL_NON_POOLING") // uses a direct connection
+}
+
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["fullTextSearch", "fullTextIndex"]
+}
+
+model Pokemon {
+  id          Int      @id @default(autoincrement())
+  name        String   @unique
+  sprite      String
+  description String   @db.Text
+  types       Type[]   @relation("PokemonTypes")
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([name])
+}
+
+model Type {
+  id        Int       @id @default(autoincrement())
+  name      String    @unique
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  pokemons  Pokemon[] @relation("PokemonTypes")
+
+  @@index([name])
+}
