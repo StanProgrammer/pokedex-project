@@ -7,10 +7,8 @@ This is a Pokedex web application. This project is built with TypeScript, Next.j
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Setup and Installation](#setup-and-installation)
-- [Usage](#usage)
-- [Folder Structure](#folder-structure)
-- [Contributing](#contributing)
-- [License](#license)
+- [Local Setup Run](#local-setup-run)
+- [Deployed URL](#deployed-url)
 
 ## Features
 - Search for Pokémon by name
@@ -34,7 +32,7 @@ Follow these steps to set up the project locally.
 - Node.js (v14 or higher)
 - PostgreSQL
 
-### Local Setup Run 
+## Local Setup Run
 
 1. Clone the repository:
    ```bash
@@ -67,7 +65,7 @@ Follow these steps to set up the project locally.
     http://localhost:3000
 
 
-### Deployed URL :
+### Deployed URL
 https://pokedex-atibkhan392-gmailcom-atib-khans-projects.vercel.app/
     
     
