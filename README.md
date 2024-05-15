@@ -25,6 +25,7 @@ This is a Pokedex web application. This project is built with TypeScript, Next.j
 - **tRPC**: For building type-safe APIs.
 - **Material UI**: For styling and UI components.
 - **superjson**: For data serialization and deserialization.
+- **Vercel-postgres**: For PostgreSQL cloud hosting
 
 ## Setup and Installation
 Follow these steps to set up the project locally.
