@@ -46,7 +46,7 @@ Follow these steps to set up the project locally.
 3. Set up the environment variables:
    Create a .env file in the root directory and add your database URL and other necessary environment variables:
    ```bash
-    DATABASE_URL="postgresql://user:password@localhost:5432/mydb"
+    POSTGRES_PRISMA_URL="postgresql://user:password@localhost:5432/mydb"
     VERCEL_URL="your-vercel-url" # for production deployment
 
 4. Set up the database with Prisma:
