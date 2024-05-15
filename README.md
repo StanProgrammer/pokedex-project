@@ -54,7 +54,7 @@ Follow these steps to set up the project locally.
     npx prisma init
     npx prisma generate
     npx prisma migrate dev --name init
-    npx prisma seed
+    npm run seed
     
 5. Run the development server:
     ```bash
