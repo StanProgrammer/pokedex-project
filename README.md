@@ -67,6 +67,7 @@ Follow these steps to set up the project locally.
 
 
 ### Deployed URL :
+https://pokedex-atibkhan392-gmailcom-atib-khans-projects.vercel.app/
     
     
 
